@@ -1,26 +1,9 @@
-// JSX: Javascript + XML (html)
+import './styles/main.css';
 
-// Componentes / Propriedades
-
-interface ButtonProps {
-  title: string;
-}
-
-function Button(props: ButtonProps){
-  return (
-    <button>
-      {props.title}
-    </button>
-  )
-}
 
 function App() {
   return (
-    <div>
-      <button title="Send 1" />
-      <button title="Send 2" />
-      <button title="Send 3" />
-      <button title="Send 4" />
+    <div className='w-8 h-8 bg-black dark:bg-slate-500'>
     </div>
   )
 }
