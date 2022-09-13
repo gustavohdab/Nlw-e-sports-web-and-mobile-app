@@ -4,8 +4,13 @@ module.exports = {
     './src/**/*.tsx',
     './index.html',
   ],
-  theme: {
-    extend: {},
-  },
+  theme: {}
+    extend: {
+      backgroundimage:{
+        galaxy:"url('/background-galaxy.png')",
+      }
+    }
+
   plugins: [],
 }
+ 
