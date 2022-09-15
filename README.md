@@ -1,6 +1,6 @@
 # nlw-ignite
 ignite mission
-# React para Web - NLW - e-Sports
+# React para Web e React Native para Mobile - NLW - e-Sports
 
 <br>
 
